@@ -1,6 +1,6 @@
-# vue-typescript
+# Todo App with Vue.js and TypeScript 
 
-> A Vue.js boilerplate with TypeScript, Vue Router and Foundation SASS
+> Simple Todo App basend on Vue.js and TypeScript
 
 ## Build Setup
 
