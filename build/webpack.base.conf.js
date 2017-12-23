@@ -35,6 +35,7 @@ module.exports = {
                 loader: 'vue-loader',
                 options: vueLoaderConfig
             },
+            { test: /\.tsx?$/, loader: 'vue-ts-loader' },
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
