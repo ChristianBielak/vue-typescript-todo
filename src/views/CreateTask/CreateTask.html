@@ -1,0 +1,26 @@
+<div class="create_task">
+    <div class="row">
+        <div class="small-12 text-center">
+            <h4>Create Tasks</h4>
+        </div>
+    </div>
+    <div class="row align-center">
+        <div class="small-12 medium-7 columns">
+            <div class="card">
+                <div class="card-section">
+                    <div class="row expanded">
+                        <div class="small-12 columns">
+                            <Legend for="todoName">What you want to do next?</Legend>
+                            <input id="todoName" type="text" v-model="taskName" placeholder="What you want to do next?">
+                        </div>
+                    </div>
+                    <div class="row expanded">
+                        <div class="small-12 columns text-right">
+                            <button @click="createTask()" type="button" class="button success">Create</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

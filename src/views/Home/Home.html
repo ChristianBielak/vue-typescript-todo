@@ -6,25 +6,6 @@
     </div>
     <div class="row align-center">
         <div class="small-12 medium-7 columns">
-            <div class="card">
-                <div class="card-section">
-                    <div class="row expanded">
-                        <div class="small-12 columns">
-                            <Legend for="todoName">Was ist zu Erledigen?</Legend>
-                            <input id="todoName" type="text" v-model="taskName" placeholder="Was ist zu erledigen?">
-                        </div>
-                    </div>
-                    <div class="row expanded">
-                        <div class="small-12 columns text-right">
-                            <button @click="createTask()" type="button" class="button success">Anlegen</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row align-center">
-        <div class="small-12 medium-7 columns">
             <table class="">
                 <thead>
                 <tr>
@@ -50,9 +31,6 @@
                 </tr>
                 </transition-group>
             </table>
-            <div class="text-right">
-                <button class="button alert" @click="clearList">Clear list</button>
-            </div>
         </div>
     </div>
 </div>

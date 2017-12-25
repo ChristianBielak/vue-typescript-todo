@@ -6,7 +6,11 @@
         <div class="bottom_bar">
             <div class="row expanded">
                 <div class="small-3 columns text-center"><i class="fa fa-cog" aria-hidden="true"></i></div>
-                <div class="small-3 columns text-center"><i class="fa fa-plus" aria-hidden="true"></i></div>
+                <div class="small-3 columns text-center">
+                    <router-link to="/create_task">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    </router-link>
+                </div>
                 <div class="small-3 columns text-center">
                     <router-link to="/">
                         <i class="fa fa-home" aria-hidden="true"></i>
