@@ -12,6 +12,9 @@ export default Vue.extend({
         emptyTrash() {
             this.$store.commit('emptyTrash');
             this.tasks = this.$store.state.deletedTasks;
+        },
+        undo(task:Task){
+            this.$store.commit('undo', task);
         }
     },
     mounted() {

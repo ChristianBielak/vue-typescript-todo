@@ -1,6 +1,6 @@
 # Todo App with Vue.js and TypeScript 
 
-> Simple Todo App basend on Vue.js and TypeScript
+> Simple Todo App basend on Vue.js and TypeScript <br> Playing around with Vuex and Typescript
 
 ## Build Setup
 

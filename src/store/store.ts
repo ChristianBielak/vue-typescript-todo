@@ -23,7 +23,12 @@ export const store = new Vuex.Store({
             var taskIndex = _.findIndex(state.tasks, task);
             state.tasks[taskIndex].completed = true;
         },
-        emptyTrash:(state) => state.deletedTasks = [] as Task[]
+        emptyTrash:(state) => state.deletedTasks = [] as Task[],
+        undo(state, task){
+            var taskIndex = _.findIndex(state.deletedTasks, task);
+            state.tasks.push(state.deletedTasks[taskIndex]);
+            state.deletedTasks.splice(taskIndex, ++taskIndex);
+        }
 
     }
 });
