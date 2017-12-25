@@ -1,14 +1,40 @@
+$fa-font-path: "../../../node_modules/font-awesome-sass/assets/fonts/font-awesome/";
+@import "../../../node_modules/font-awesome-sass/assets/stylesheets/font-awesome";
 @import "~foundation-sites/scss/foundation";
 @import "settings";
-
 @include foundation-flex-classes;
 @include foundation-flex-grid;
 @include foundation-everything(true);
 
-.text-line-through{
+.text-line-through {
   text-decoration: line-through;
 }
 
-.button{
+.button {
   margin: 0;
+}
+
+.bottom_bar {
+  background: #1468a0;
+  font-size: 1.5rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 0.2rem 0;
+
+  a {
+    color: #fff;
+
+    &.router-link-exact-active {
+      color: #22bb5b;
+    }
+  }
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: all .2s ease;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0;
 }

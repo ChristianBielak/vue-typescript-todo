@@ -10,6 +10,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.91",
+    "firebase": "^4.8.1",
+    "font-awesome": "^4.7.0",
+    "font-awesome-sass": "^4.7.0",
     "foundation-sites": "^6.4.4-rc1",
     "lodash": "^4.17.4",
     "node-sass": "^4.7.2",
@@ -17,7 +21,9 @@
     "sw-precache-webpack-plugin": "^0.11.4",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vue-ts-loader": "0.0.3"
+    "vue-ts-loader": "0.0.3",
+    "vuefire": "^1.4.5",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
